@@ -35,7 +35,6 @@ guess = False
 answer = int(input("guess a number from 1 to 10"))
 
 while guess == False:
-    
     if answer == RandomNumber:
         guess = True
         print("congrats youre correct")
